@@ -1,0 +1,89 @@
+<html lang="en">
+    <head>
+        <title>Vacancies</title>    
+        <link href="style.css" rel="stylesheet">   
+    </head>
+    
+    <body>
+        <h1> Application for employment</h1>
+        <form id="Application">
+                <fieldset form="Application">
+                 <legend><b>Personal Details</b></legend>
+                 <table width="100%">
+                    <tr>
+                        <td>Surname</td>
+                        <td><input type="text" name="surname"></td>
+                    </tr>
+                    <tr>
+                        <td>Forename</td>
+                        <td><input type="text" name="forename"></td>
+                    </tr>
+                    <tr>
+                        <td>Title</td>
+                        <td><input type="text" name="title"></td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td><textarea rows="5" cols="40" name="address" form="Application"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>NIC</td>
+                        <td><input type="text" name="nic" maxlength="10"></td>
+                    </tr>
+                    <tr>
+                        <td>Date of Birth</td>
+                        <td><input type="date" name="bday"></td>
+                    </tr>
+                    <tr>
+                        <td>Days Available</td>
+                        <td><input type="checkbox" name="monday" value="Monday">Monday<input type="checkbox" name="tuesday" value="Tuesday">Tuesday<input type="checkbox" name="wednesday" value="Wednesday">Wednesday<input type="checkbox" name="thursday" value="Thursday">Thursday<input type="checkbox" name="friday" value="Friday">Friday<input type="checkbox" name="saturday" value="Saturday">Saturday<input type="checkbox" name="sunday" value="Sunday">Sunday</td>
+                    </tr>
+                    <tr>
+                        <td>Nationality</td>
+                        <td>
+                            <select name="Nationality">
+                                <option value="Sinhala">Sinhala</option>
+                                <option value="Tamil">Tamil</option>
+                                <option value="Muslim">Muslim</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                 </table>
+                </fieldset>
+
+                <fieldset form="Application">
+                    <legend><b>Education</b></legend>
+                    <table width="100%">
+                        <tr><td>School/College</td> <td><input type="text" name="School"></td></tr>
+                        <tr><td>Qualification</td> <td><input type="text" name="Qualification"></td></tr>
+                        <tr><td>Time Period</td> <td><input type="text" name="timeperiod"></td></tr>
+                    </table>
+
+                </fieldset>
+
+                <fieldset form="Application">
+                    <legend><b>Declaration</b></legend>
+                    <p>I confirm you that the above information is complete and correct. False or misleading information will give the employer there right to reject my application or to withdraw any employment contract offered or employed, dismiss without notice.</p>
+                    Name :<input type="text" name="Name"> 	&nbsp;Date :<input type="date" name="bday">
+                </fieldset>
+
+                <fieldset>
+                    <legend><b>Add CV</b></legend>
+                    <input name="myFile" type="file"><input type="submit" value="Submit">
+                </fieldset>
+        </form>
+
+
+        <hr color = "brown">
+        <footer align ="center">
+            <strong>Copyright &copy; 2018 Chinese Place, SriLanka | All rights Reserved.2018</strong>       
+        </footer>
+              
+    </body>
+
+</html>
